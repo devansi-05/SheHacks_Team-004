@@ -19,13 +19,14 @@
             <h2 class="title">Sign In</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username"id="email_field" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password"id="password_field" />
             </div>
-            <input type="submit" value="Login" class="btn solid" />
+            <button onclick="login()" class="btn solid" id="loginbtn">Login</button>
+            <!--<input type="submit" value="Login" class="btn solid" onclick="login" id="sign-in-btn" />-->
 
           </form>
 
@@ -77,8 +78,26 @@
             <img src="./img/register.svg" class="image" alt="">
         </div>
       </div>
-    </div>
+    </div
 
-    <script src="./app.js"></script>
-  </body>
+
+<script src=""></script>
+ <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+
+ <script>
+  // The web app configg
+  var firebaseConfig = {
+    apiKey: "AIzaSyB3YmvxqwBHqxFdH2-BYtXMrBQ9VwQd-ZE",
+    authDomain: "skinsight-170ce.firebaseapp.com",
+    projectId: "skinsight-170ce",
+    storageBucket: "skinsight-170ce.appspot.com",
+    messagingSenderId: "764473003561",
+    appId: "1:764473003561:web:201d600de43def0a305638"
+  };
+  // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+ </script>>
+  <script src="app.js"></script> 
+</body>
 </html>
