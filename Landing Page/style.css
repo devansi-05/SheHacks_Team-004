@@ -1,0 +1,86 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+h1 {
+
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+color: #000000;
+}
+
+
+
+
+h3 {
+  font-size: 1.5vw;
+}
+.title {
+  margin-left: 8%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 35%;
+  float: right;
+  margin-right: 7%;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+#tagline {
+  margin-left: 0.5%;
+  margin-bottom: 50px;
+  margin-top: -2vw;
+}
+
+.homebutton {
+  margin-left: 8%;
+  background-color: #458FF6;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 55px;
+  font-size: 2vw;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-emphasis: none;
+}
+
+a {
+  color: black;
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+nav {
+  width: 20%;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
+}
+
+nav a {
+  position: relative;
+  width: 33.333%;
+  display: table-cell;
+  text-align: center;
+  color: #949494;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.2s ease color;
+}
+
+.navcontainer {
+  width: 100%;
+}
