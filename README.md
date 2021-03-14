@@ -31,3 +31,4 @@ The aim of our project is to detect the skin conditions based on the photo uploa
 - APi's
 - Figma
 - NodeJs
+- Tensor Flow
