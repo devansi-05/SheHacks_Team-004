@@ -12,12 +12,20 @@ Since your skin plays such an important role in protecting your body, you should
 
 There are many diseases that can affect your skin. Some like vitiligo cause the skin to lose its natural color, and some like alopecia areata can make the hair fall out. Another skin disease like epidermolysis bullosa can cause painful blisters. Psoriasis can cause itchy, scaly red patches. Go see your doctor if you think you might have a skin disease.
 
-## What our challenges our project overcomes?
+## What challenges our project overcomes?
+
+The aim of our project is to detect the skin conditions based on the photo uploaded by the user. Since it's difficult to diffrentiate the skin conditions based on the symptoms so what our project does is take the picture and diagnose it as accurately as possible.
 
 ## How is our product different than others in the market?
+
+-Our product has user friendly login/signup portal.
+-Our product states the skin conditions based on the pictures
 
 ## Tech Stack
 
 - Html
 - CSS
 - JavaScript
+- APi's
+- Figma
+- NodeJs
