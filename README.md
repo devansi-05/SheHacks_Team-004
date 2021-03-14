@@ -1,4 +1,4 @@
-# Skin Analysis
+# Skin Sight
 
 ## What you know about your skin?
 
