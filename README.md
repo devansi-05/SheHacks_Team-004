@@ -18,8 +18,8 @@ The aim of our project is to detect the skin conditions based on the photo uploa
 
 ## How is our product different than others in the market?
 
--Our product has user friendly login/signup portal.
--Our product states the skin conditions based on the pictures
+- Our product has user friendly login/signup portal.
+- Our product states the skin conditions based on the pictures
 
 ## Tech Stack
 
